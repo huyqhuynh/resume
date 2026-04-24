@@ -35,6 +35,7 @@ body {
 
 .hero p {
   color: #94a3b8;
+  margin-top: 10px;
 }
 
 h2 {
@@ -49,6 +50,13 @@ h2 {
   border-radius: 16px;
   margin-top: 30px;
   border: 1px solid rgba(148,163,184,0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  box-shadow: 0 0 20px rgba(56,189,248,0.2);
 }
 
 .card img {
@@ -88,6 +96,17 @@ h2 {
   text-decoration: none;
   font-weight: 600;
 }
+
+.cta a:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #64748b;
+  font-size: 14px;
+}
 </style>
 </head>
 
@@ -95,62 +114,32 @@ h2 {
 
 <div class="container">
 
+<!-- HERO -->
 <div class="hero">
   <h1>Huy Huynh</h1>
-  <p>Sr. Email Developer • SFMC • AMPscript</p>
-  <p>I build high-performing email systems that scale, personalize, and convert.</p>
+  <p>Sr. Email Developer • Salesforce Marketing Cloud</p>
+  <p>I build responsive, production-ready emails with a focus on performance, personalization, and clean code.</p>
 </div>
 
-<h2>Client Email Systems (Demo Work)</h2>
-
-<!-- MASTER IMAGE -->
-<div class="card">
-  <h3>Multi-Brand Email Campaign System</h3>
-  <p>Designed and developed responsive email campaigns across multiple industries including retail, automotive, and eCommerce.</p>
-
-  <img src="https://raw.githubusercontent.com/huyqhuynh/resume/04d750eb2423172536a6d25766f3869ae9094d24/EmailBuild_mockups.png">
-
-  <p><strong>Stack:</strong> HTML, CSS, SFMC, AMPscript, Litmus</p>
-</div>
-
-<!-- INDIVIDUAL BREAKDOWN -->
+<!-- WORK -->
+<h2>Selected Work</h2>
 
 <div class="card">
-  <h3>Ford – Performance Campaign</h3>
-  <p>Automotive-focused campaign highlighting product strength, features, and strong CTA placement.</p>
-
+  <h3>Multi-Brand Email Campaigns</h3>
+  <p>Responsive email builds across retail and automotive campaigns. Focused on clean structure and consistent rendering across clients.</p>
   <img src="https://raw.githubusercontent.com/huyqhuynh/resume/04d750eb2423172536a6d25766f3869ae9094d24/EmailBuild_mockups.png">
-
-  <p><strong>Focus:</strong> Conversion, layout hierarchy, mobile optimization</p>
+  <p><strong>Tools:</strong> HTML, CSS, SFMC, AMPscript, Litmus</p>
 </div>
 
 <div class="card">
-  <h3>Volkswagen – Product Discovery</h3>
-  <p>Clean layout focused on showcasing vehicle lineup with modular design structure.</p>
-
+  <h3>Automotive Campaign – Ford</h3>
+  <p>Promotional email highlighting vehicle features with clear CTA structure and mobile-first layout.</p>
   <img src="https://raw.githubusercontent.com/huyqhuynh/resume/04d750eb2423172536a6d25766f3869ae9094d24/EmailBuild_mockups.png">
-
-  <p><strong>Focus:</strong> UX clarity, responsive grid, scalability</p>
 </div>
 
-<div class="card">
-  <h3>Total Wine – Promotional Campaign</h3>
-  <p>Retail-focused email built for high engagement using offers, product highlights, and urgency.</p>
 
-  <img src="https://raw.githubusercontent.com/huyqhuynh/resume/04d750eb2423172536a6d25766f3869ae9094d24/EmailBuild_mockups.png">
 
-  <p><strong>Focus:</strong> Promotions, CTA visibility, segmentation-ready</p>
-</div>
-
-<div class="card">
-  <h3>Shane Co. – Luxury Product Email</h3>
-  <p>High-end jewelry campaign focusing on emotional storytelling and clean presentation.</p>
-
-  <img src="https://raw.githubusercontent.com/huyqhuynh/resume/04d750eb2423172536a6d25766f3869ae9094d24/EmailBuild_mockups.png">
-
-  <p><strong>Focus:</strong> Branding, visual hierarchy, elegance</p>
-</div>
-
+<!-- SKILLS -->
 <h2>Skills</h2>
 
 <span class="badge">HTML Email</span>
@@ -160,13 +149,19 @@ h2 {
 <span class="badge">SQL</span>
 <span class="badge">Litmus</span>
 
+<!-- CONTACT -->
 <h2>Contact</h2>
 <p>Email: huyqhuynh@icloud.com</p>
 <p>Phone: 916-908-7440</p>
 <p><a href="https://www.linkedin.com/in/huyqhuynh102" target="_blank">LinkedIn</a></p>
 
+<!-- CTA -->
 <div class="cta">
   <a href="mailto:huyqhuynh@icloud.com">Let’s Work Together</a>
+</div>
+
+<div class="footer">
+  © 2026 Huy Huynh
 </div>
 
 </div>
