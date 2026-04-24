@@ -3,120 +3,224 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Huy Huynh | Email Developer</title>
+<title>October Monday | Digital Marketing Expert</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
 body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
-  background: #0f172a;
-  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e2e8f0;
 }
+
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
-h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
 }
-h2 {
-  margin-top: 40px;
-  border-bottom: 1px solid #334155;
-  padding-bottom: 10px;
+
+.hero h1 {
+  font-size: 42px;
+  margin: 0;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-p {
+
+.hero p {
   color: #94a3b8;
+  margin-top: 10px;
 }
-.badge {
-  display: inline-block;
-  background: #1e293b;
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 8px;
-  font-size: 14px;
+
+.hero .tagline {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #cbd5f5;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
-.card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 12px;
+
+/* SECTION */
+h2 {
+  margin-top: 60px;
+  font-size: 22px;
+  border-left: 4px solid #38bdf8;
+  padding-left: 10px;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
   margin-top: 20px;
 }
-a {
-  color: #38bdf8;
-  text-decoration: none;
-}
-.cta {
-  margin-top: 40px;
+
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148,163,184,0.1);
   padding: 20px;
-  background: #38bdf8;
-  color: #0f172a;
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  box-shadow: 0 0 20px rgba(56,189,248,0.2);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #e2e8f0;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #94a3b8;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 20px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 999px;
+  background: rgba(56,189,248,0.1);
+  border: 1px solid rgba(56,189,248,0.3);
+  font-size: 13px;
+}
+
+/* CTA */
+.cta {
+  margin-top: 80px;
   text-align: center;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 14px 28px;
   border-radius: 10px;
-  font-weight: bold;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #64748b;
+  font-size: 14px;
 }
 </style>
 </head>
 
 <body>
+
 <div class="container">
 
-<h1>Huy Huynh</h1>
-<p>Email Developer • Salesforce Marketing Cloud • AMPscript</p>
-
-<p>I build responsive, high-performing email campaigns that actually convert.  
-Specialized in SFMC, dynamic personalization, and clean HTML.</p>
-
----
-
-<h2>🔥 Selected Work</h2>
-
-<div class="card">
-  <h3>Responsive Email System</h3>
-  <p>Built scalable email templates used across multiple campaigns.</p>
-  <p><strong>Stack:</strong> HTML, CSS, SFMC</p>
+<div class="hero">
+  <h1>October Monday</h1>
+  <p>Digital Marketing Expert • SFMC • AMPscript</p>
+  <div class="tagline">
+    10+ years coding pixel-perfect HTML emails for Total Wine, Samsung, Ford, Shane Co., Volkswagen, and iRobot[cite: 18]. Experienced in optimizing email campaigns and leveraging automation to drive customer engagement[cite: 21, 26].
+  </div>
 </div>
 
-<div class="card">
-  <h3>Dynamic Personalization Campaign</h3>
-  <p>Implemented AMPscript + SQL logic to deliver personalized content at scale.</p>
-  <p><strong>Stack:</strong> AMPscript, SQL</p>
+<h2>Professional Experience</h2>
+
+<div class="grid">
+
+  <div class="card">
+    <h3>Total Wine & More | Email Producer</h3>
+    <p><strong>August 2017 - August 2025 [cite: 30]</strong></p>
+    <p>Built responsive emails based on detailed specifications and collaborated remotely with teams to deliver high-quality campaigns[cite: 31, 32]. Implemented AMPscript and business rules in ExactTarget to support dynamic segmentation, personalized content, and scalable automation[cite: 36]. Maintained production timelines and performed thorough quality assurance[cite: 33, 34].</p>
+  </div>
+
+  <div class="card">
+    <h3>Merkle | Senior Email Developer</h3>
+    <p><strong>April 2012 - December 2016 [cite: 39, 40]</strong></p>
+    <p>Developed HTML code for email campaigns meeting industry best practices[cite: 41]. Wrote AMPscript for dynamic content and thoroughly validated functionality cross devices, clients, and browsers[cite: 42, 47]. Coded and tested responsive emails, prepared Photoshop files, and worked with designers to optimize design for email[cite: 52, 53, 54].</p>
+  </div>
+
+  <div class="card">
+    <h3>Course Designer</h3>
+    <p>Served as a Course Designer for Pearson eCollege from June 2011 to December 2011 [cite: 63, 64, 65] and for Westwood College from March 2009 to June 2011[cite: 66, 67, 68].</p>
+  </div>
+
 </div>
 
-<div class="card">
-  <h3>Cross-client Email Optimization</h3>
-  <p>Fixed rendering issues across Outlook, Gmail, and Apple Mail.</p>
-  <p><strong>Tools:</strong> Litmus</p>
+<h2>Education & Certifications</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3>Westwood College of Technology</h3>
+    <p>Web and Multimedia Designer, Web/Multimedia Management and Webmaster (2006-2010)[cite: 71, 72].</p>
+    <br>
+    <h3>Certifications</h3>
+    <p>
+      • Google AI for Writing and Communicating [cite: 15, 16]<br>
+      • ExactTarget Email: Content Creation Essentials I [cite: 12]<br>
+      • ExactTarget Marketing Certification for Deliverability [cite: 13]<br>
+      • ExactTarget Certification Data & Subscriber Management [cite: 14]
+    </p>
+  </div>
 </div>
 
----
+<h2>Skills</h2>
 
-<h2>⚡ Skills</h2>
+<div class="skills">
+  <span class="badge">Salesforce Marketing Cloud [cite: 22]</span>
+  <span class="badge">Salesforce Sales Cloud [cite: 8]</span>
+  <span class="badge">Adobe Campaign [cite: 7]</span>
+  <span class="badge">Marketo [cite: 22]</span>
+  <span class="badge">Iterable [cite: 22]</span>
+  <span class="badge">AMPscript [cite: 36]</span>
+  <span class="badge">SQL [cite: 22]</span>
+  <span class="badge">HTML/CSS [cite: 22]</span>
+  <span class="badge">A/B Testing [cite: 23]</span>
+  <span class="badge">Bilingual: English & Vietnamese [cite: 10]</span>
+</div>
 
-<span class="badge">HTML Email</span>
-<span class="badge">CSS</span>
-<span class="badge">SFMC</span>
-<span class="badge">AMPscript</span>
-<span class="badge">SQL</span>
-<span class="badge">Litmus</span>
-<span class="badge">Responsive Design</span>
-<span class="badge">QA Testing</span>
-
----
-
-<h2>📎 Links</h2>
-
-<p>
-<a href="https://www.linkedin.com/in/huyqhuynh102" target="_blank">LinkedIn</a>
-</p>
-
----
+<h2>Contact</h2>
+<p>Location: Denver, CO [cite: 3] / Elk Grove, CA [cite: 19]</p>
+<p>Email: huyqhuynh@icloud.com [cite: 3]</p>
+<p>Phone: 9169087440 [cite: 3]</p>
+<p><a href="https://www.linkedin.com/in/huyqhuynh102" target="_blank">LinkedIn [cite: 4, 5]</a></p>
 
 <div class="cta">
-  Available for freelance & contract work →  
-  Email me: your-email@gmail.com
+  <a href="mailto:huyqhuynh@icloud.com">Let’s Work Together</a>
+</div>
+
+<div class="footer">
+  © 2026 October Monday — Built for speed, not fluff.
 </div>
 
 </div>
+
 </body>
 </html>
